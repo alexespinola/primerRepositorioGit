@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv=Content-Type>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style>
+	* { 
+	margin:0;
+	padding:0;
+	}
+	* { font-family: Arial, sans-serif; }
+	img { 
+		max-width: 100%; 
+	}	
+	body {
+	-webkit-font-smoothing:antialiased; 
+	-webkit-text-size-adjust:none; 
+	width: 100%!important; 
+	height: 100%;
+	}
+
+	/*HEADER*/	
+	table.head-wrap { width: 100%;}
+
+	/* BODY */
+	table.body-wrap { width: 100%;}
+	
+	/*FOOTER */
+	table.footer-wrap { width: 100%;}
+	
+	/* RESPONSIVENESS*/
+
+	/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+	.container {
+	display:block!important;
+	max-width:800px!important;
+	margin:0 auto!important; /* makes it centered */
+	clear:both!important;
+	}
+
+	/* This should also be a block element, so that it will fill 100% of the .container */
+	.content {
+	padding:15px;
+	max-width:800px;
+	margin:0 auto;
+	display:block; 
+	}
+
+	/* Let's make sure tables in the content area are 100% wide */
+	.content table { width: 100%; }
+
+
+	/* Be sure to place a .clear element after each set of columns, just to be safe */
+	.clear { display: block; clear: both; }
+
+
+	/*PHONE	For clients that support media queries.Nothing fancy. */
+	
+	@media only screen and (max-width: 600px) {
+	
+	a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+	}	
+	
+	<!--body{font-family: Arial, Verdana, Sans Serif;}	
+	p, h3{margin:0px; padding:0px;}
+	
+	.clear{
+		clear:both;
+	}
+	.float_der{
+		float:right;
+	}
+	.float_izq{
+		float:left;
+	}
+	
+	.borde_mail {
+		background-image:url(img/nav-color5.jpg);
+		background-repeat: repeat-y;
+		width: 800px;
+		height: 2px;
+		margin: 25px auto 0;
+	}
+	
+	section{
+		width:800px;
+		margin: 20px auto 0;
+		padding-bottom: 10px;			
+	}
+
+	section p{
+		color: #666;
+		font-size: 15px;
+		text-align:justify;
+	}
+	
+	section a{
+		margin-left:10px;
+	}
+	
+	h3{
+		padding-top:4px;
+		padding-bottom:30px;			
+	}
+
+	header.cabecera_mail{
+		width: 800px;
+		margin: 30px auto 10px;		
+	}
+
+	.cabecera_mail img{
+		width: 24%;
+	}
+
+	.subtitulo_uno {
+		color:#0097b1;
+		margin-top:5px;
+	}
+
+	.subtitulo_uno a{
+		font-weight:bold;
+		text-decoration:none;
+	}
+
+	.subtitulo_dos {
+		font-weight: bold;
+		color:#0097b1;
+	}
+
+	.urgencia{
+		margin-left:5px;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	
+	footer{
+		width:800px;
+		margin: 20px auto 0;
+		padding-bottom: 10px;			
+	}
+	
+	footer p{
+		color: #666;
+		font-size: 15px;
+		font-weight:bold;		
+	}-->
+
+	</style>
+</head>
+<body bgcolor="#FFFFFF">
+
+<!-- HEADER -->
+<table class="head-wrap">
+	<tr>		
+		<td class="header container" >				
+				<div class="content">
+				<table>
+					<tr>
+						<td align="left"><img src="img/operadora-ferroviaria-mail.jpg" /></td>
+						<td align="right"><img src="img/mininterior-mail.jpg" /></td>						
+					</tr>					
+				</table>
+				</div>
+				<div>
+				<table>					
+					<tr align="center"><img src="img/nav-color5.jpg"/></tr>
+				</table>
+				</div>				
+		</td>		
+	</tr>
+</table><!-- /HEADER -->
+
+<!-- BODY -->
+<table class="body-wrap">
+	<tr>		
+		<td class="container" bgcolor="#FFFFFF">
+			<div class="content">
+				<table>
+					<tr>
+						<td style="font-size: 1.5em;color:#0097b1;">
+							Solicitud Nro.: 005
+							<a href="#"><img src="img/ver_solicitud.jpg"></a>
+						</td>					
+					</tr>
+					<tr>
+						<td>
+						<span style="font-size: 1em;color:#0097b1;font-weight:bold;">Área:</span>
+						<span style="font-size: 1em;color:#666;">Administración</span>
+						</td>							
+					</tr>
+					<tr>
+						<td>
+						<span style="font-size: 1em;color:#0097b1;font-weight:bold;">Enviado por:</span>
+						<span style="font-size: 1em;color:#666;">Esteban Campos</span>
+						</td>										
+					</tr>
+					<tr>
+						<td>
+						<span style="font-size: 1em;color:#0097b1;font-weight:bold;">Nivel de urgencia:</span>
+						<span style="font-size: 1em;color:#666; text-transform:uppercase;font-weight:bold;">Urgente</span>
+						</td>						
+					</tr>					
+					<tr>
+						<td style="padding-top:2em;font-size: 0.9em;color:#666;text-align:justify;">Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. consequat vel lacus. Sed iaculis pulvinar ligula, ornare fringilla ante viverra et. In hac habitasse platea dictumst. Donec vel orci mi, eu congue justo. Integer eget odio est, eget malesuada lorem. Aenean sed tellus dui, vitae viverra risus. Nullam massa sapien, pulvinar eleifend fringilla id, convallis eget nisi. Mauris a sagittis dui. Pellentesque non lacinia mi. Fusce sit amet libero sit amet erat venenatis sollicitudin vitae vel eros. Cras nunc sapien, interdum sit amet porttitor ut, congue quis urna.
+						</td>					
+					</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+</table>					
+
+<!-- FOOTER -->
+<table class="footer-wrap">
+	<tr>		
+		<td class="container">
+			<div class="content">
+				<table>
+					<tr>
+						<td>
+							<span style="font-size: 0.9em;color:#0097b1;"><b>Dpto. Coordinación Administrativa</b> | Tel. 0000-0000</span>							
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span style="font-size: 0.9em;color:#0097b1;">Trenes Argentinos - Operadora Ferroviaria</span>
+						</td>
+					</tr>
+				</table>
+			</div>				
+		</td>
+	</tr>
+</table><!-- /FOOTER -->
+
+
+<!--<header class="cabecera_mail">	
+	<img alt="Operadora Ferroviaria" src="img/operadora-ferroviaria.png" class="float_izq">	
+	<img alt="Ministerio del Interior y Transporte" src="img/mininterior.png" class="float_der">
+	<div class="clear"></div>	
+</header>
+<div class="borde_mail"></div>
+<section>
+	<div>
+		<h3 class="subtitulo_dos float_izq">Solicitud Nro.: 005</h3>
+		<a href="#" class="float_izq"><img src="img/ver_solicitud.jpg"></a>
+		<div class="clear"></div>
+	</div>	
+	<p class="subtitulo_dos float_izq">Área:<p class="float_izq margen_izq" style="margin-left:5px;">Administración</p></p><br>
+	<p class="subtitulo_dos float_izq">Enviado por:<p class="float_izq margen_izq" style="margin-left:5px;">Roberta Madueño</p></p><br>
+	<p class="subtitulo_dos float_izq">Nivel de urgencia:<p class="float_izq urgencia" >URGENTE</p></p>
+	<div class="clear"></div>	
+</section>
+<section>
+	<p>Con respecto al reclamo xxxxxxx , el área de prevención nos informa que ..............................<br><br>
+	Por otro lado, me parece importante comentarte que el Gobierno Nacional, a través del Ministerio del Interior y Transporte, está llevando adelante un plan de inversión inédito en materia ferroviaria. Se han adquirido 1.200 coches cero kilómetro para renovar la flota de todas las líneas urbanas, se están renovando las vías a Rosario y Mar del Plata, se están construyendo 35 pasos bajo nivel en simultáneo, y se desarrolló un moderno centro de monitoreo para mejorar la seguridad operativa, entre otras obras de importancia.<br><br>
+	Particularmente en la Línea Sarmiento, en los próximos días se estarán incorporando las primeras formaciones 0 kilómetro en el ramal Once ? Moreno, que cuentan con niveles de confort y seguridad de los más avanzados del mundo. Se ha renovado por completo la estación Villa Luro, que será modelo para otras estaciones que serán reconstruidas en los próximos días, como Caballito y Ramos Mejía. Sumado a la renovación de vías ya realizada y a la instalación de las balizas del sistema de detención automática conocido como ?Para Tren?, el servicio de la Línea Sarmiento mejorará notablemente y podrás viajar con la comodidad que se merecen todos los trabajadores. Este esfuerzo ha sido posible gracias al aporte de todos los argentinos, por eso: ?El tren es tuyo, cuidalo?.</p>
+</section>
+<footer>
+	<p>Dpto. Coordinación Administrativa | Tel. 0000-0000</p>
+	<p>Trenes Argentinos - Operadora Ferroviaria </p>
+</footer>-->
+</body>
+</html>

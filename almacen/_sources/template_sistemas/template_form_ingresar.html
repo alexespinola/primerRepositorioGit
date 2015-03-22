@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+		<!-- favicon -->
+        <link rel="shortcut icon" href="favicon.ico">		
+        <link rel="stylesheet" href="css/estilos_color.css">
+	</head>
+	<body>
+		<div class="contenedor">
+			<section>
+				<h4>Solicitud de Viáticos, Anticipo de Gastos Eventuales y Órdenes de Pasaje</h4>
+				<table>
+					<thead class="cabecera_a">
+						<tr class="tabla-reclamo">
+							<th>Fecha de Presentación</th>
+							<th colspan="4">Tramitación Urgente</th>
+						</tr>
+					</thead>
+					<tbody class="borde">		
+						<tr>
+							<td><input type="text"></input></td>
+							<td>
+								<label>Sí</label>
+								<input type="radio" class="radio"></input>
+							</td>
+							<td>
+								<label>No</label>
+								<input type="radio" class="radio"></input>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead class="cabecera_a">
+						<tr class="tabla-reclamo">
+							<th>Apellido</th>
+							<th>Nombre</th>
+						</tr>
+					</thead>
+					<tbody class="borde">
+						<tr>	
+							<td><input type="text"></input></td>	
+							<td><input type="text"></input></td>	
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead class="cabecera_a">
+						<tr class="tabla-reclamo">
+							<th>Fecha de Salida</th>
+							<th>Horario de Salida</th>
+							<th>Fecha de Llegada</th>
+							<th>Horario de Llegada</th>
+						</tr>
+					</thead>
+					<tbody class="borde">
+						<tr>	
+							<td><input type="date"></input></td>
+							<td><input type="time"></input></td>
+							<td><input type="date"></input></td>	
+							<td><input type="time"></input></td>							
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead class="cabecera_a">
+						<tr class="tabla-reclamo">
+							<th>Motivo Comisión de Servicios</th>
+						</tr>
+					</thead>
+					<tbody class="borde">
+						<tr>	
+							<td><textarea placeholder="Ingrese motivo de la comisión de servicios"></textarea></td>					
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead class="cabecera_a">
+						<tr>
+							<th>Cantidad de Días</th>
+							<th>Viático Diario</th>
+							<th>Gastos Eventuales</th>
+							<th>Fecha Rendición de Gastos</th>
+						</tr>
+					</thead>
+					<tbody class="borde">
+						<tr>	
+							<td><input type="text"></input></td>	
+							<td><input type="text"></input></td>
+							<td><input type="text"></input></td>	
+							<td><input type="date"></input></td>							
+						</tr>
+						<tr>	
+							<td colspan="4" ><input type="text" placeholder="Total:" class="total"></input></td>					
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead class="cabecera_a">
+						<tr>
+							<th>Forma de Pago</th>
+							<th class="gris img_btn_cont"><a></a></th>
+							<th class="gris img_btn_trans"><a></a></th>
+						</tr>
+					</thead>
+					<tbody class="borde">
+						<tr>	
+							<td>Ingrese DNI</td>
+							<td colspan="2"><input type="text"></input></td>	
+						</tr>
+					</tbody>
+				</table>
+				<div>
+				<table>
+					<thead class="cabecera_a">
+						<tr>
+							<th colspan="5">Datos Pasajes Aéreos</th>
+							<th class="gris img_btn_avion"><a></a></th>
+						</tr>
+					</thead>
+					<thead class="cabecera_b">
+							<tr>
+								<th colspan="6">Tipo de Viaje</th>																
+							</tr>
+					</thead>
+					<tbody class="borde">
+						<tr>							
+							<td colspan="3">
+								<label>Al interior</label>
+								<input type="radio" class="radio"></input>
+							</td>
+							<td colspan="3">
+								<label>Al exterior</label>
+								<input type="radio" class="radio"></input>
+							</td>
+						</tr>
+					</tbody>
+					<thead class="cabecera_b">
+							<tr>
+								<th colspan="6">Ida</th>																
+							</tr>
+					</thead>
+					<thead class="cabecera_c" >
+							<tr>
+								<th>Cía. Aérea</th>
+								<th>Vuelo Nº</th>
+								<th>Ruta</th>
+								<th>Fecha</th>	
+								<th>Horario Salida</th>
+								<th>Horario Llegada</th>									
+							</tr>
+					</thead>
+					<tbody class="borde">
+						<tr>	
+							<td><input type="text"></input></td>	
+							<td><input type="text"></input></td>	
+							<td><input type="text"></input></td>	
+							<td><input type="text"></input></td>
+							<td><input type="text"></input></td>	
+							<td><input type="text"></input></td>
+						</tr>
+					</tbody>
+					<thead class="cabecera_b">
+							<tr>
+								<th colspan="6">Vuelta</th>																
+							</tr>
+					</thead>
+					<thead class="cabecera_c" >
+							<tr>
+								<th>Cía. Aérea</th>
+								<th>Vuelo Nº</th>
+								<th>Ruta</th>
+								<th>Fecha</th>	
+								<th>Horario Salida</th>
+								<th>Horario Llegada</th>									
+							</tr>
+					</thead>
+					<tbody class="borde">
+						<tr>	
+							<td><input type="text"></input></td>	
+							<td><input type="text"></input></td>	
+							<td><input type="text"></input></td>	
+							<td><input type="text"></input></td>
+							<td><input type="text"></input></td>	
+							<td><input type="text"></input></td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
+			</section>				
+		<div><button type="submit"  class="btn-b float_der" >Enviar</button></div>
+		</div>  
+	</body>
+</html>

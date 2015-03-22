@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta content="text/html; charset=utf-8" http-equiv=Content-Type>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<style>
+	* { 
+	margin:0;
+	padding:0;
+	}
+	* { font-family: Arial, sans-serif; }
+	img { 
+		max-width: 100%; 
+	}	
+	body {
+	-webkit-font-smoothing:antialiased; 
+	-webkit-text-size-adjust:none; 
+	width: 100%!important; 
+	height: 100%;
+	}
+
+	/*HEADER*/	
+	table.head-wrap { width: 100%;}
+
+	/* BODY */
+	table.body-wrap { width: 100%;}
+	
+	/*FOOTER */
+	table.footer-wrap { width: 100%;}
+	
+	/* RESPONSIVENESS*/
+
+	/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+	.container {
+	display:block!important;
+	max-width:800px!important;
+	margin:0 auto!important; /* makes it centered */
+	clear:both!important;
+	}
+
+	/* This should also be a block element, so that it will fill 100% of the .container */
+	.content {
+	padding:15px;
+	max-width:800px;
+	margin:0 auto;
+	display:block; 
+	}
+
+	/* Let's make sure tables in the content area are 100% wide */
+	.content table { width: 100%; }
+
+
+	/* Be sure to place a .clear element after each set of columns, just to be safe */
+	.clear { display: block; clear: both; }
+
+
+	/*PHONE	For clients that support media queries.Nothing fancy. */
+	
+	@media only screen and (max-width: 600px) {
+	
+	a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+	}
+	</style>
+</head>
+<body bgcolor="#FFFFFF">
+
+<!-- HEADER -->
+<table class="head-wrap">
+	<tr>		
+		<td class="header container" >				
+				<div class="content">
+				<table>
+					<tr>
+						<td><img src="img/operadora-ferroviaria.png" align="left" width="50%"/></td>
+						<td><img src="img/mininterior.png" align="right" width="50%" /></td>						
+					</tr>					
+				</table>
+				</div>
+				<!--<div>
+				<table>					
+					<tr align="center"><img src="img/nav-color5.jpg"/></tr>
+				</table>
+				</div>-->				
+		</td>		
+	</tr>
+</table><!-- /HEADER -->
+
+<!-- BODY -->
+<table class="body-wrap">
+	<tr>		
+		<td class="container" bgcolor="#FFFFFF">
+			<div class="content">
+				<table width="65%">
+					<tr>
+						<td style="font-size: 1.5em;color:#0097b1;">
+							Solicitud Nro.: 005
+							<a href="#"><img src="img/ver_solicitud.jpg"></a>
+						</td>					
+					</tr>
+					<tr>
+						<td>
+						<span style="font-size: 1em;color:#0097b1;font-weight:bold;">Área:</span>
+						<span style="font-size: 1em;color:#666;">Administración</span>
+						</td>							
+					</tr>
+					<tr>
+						<td>
+						<span style="font-size: 1em;color:#0097b1;font-weight:bold;">Enviado por:</span>
+						<span style="font-size: 1em;color:#666;">Esteban Campos</span>
+						</td>										
+					</tr>
+					<tr>
+						<td>
+						<span style="font-size: 1em;color:#0097b1;font-weight:bold;">Nivel de urgencia:</span>
+						<span style="font-size: 1em;color:#666; text-transform:uppercase;font-weight:bold;">Urgente</span>
+						</td>						
+					</tr>
+					<tr>					
+						<td style="padding-top:2em;">
+						<span style="font-size: 1em;color:#666;font-weight:bold;">Enviado por:</span>
+						<span style="font-size: 1em;color:#666;">Roberta</span>
+						<br/>
+						<span style="font-size: 1em;color:#666;font-weight:bold;">Para:</span>
+						<span style="font-size: 1em;color:#666;">Roberta</span>
+						</td>
+					</tr>
+					<tr>						
+						<td style="padding-top:1em;font-size: 0.9em;color:#666;text-align:justify;">						
+						Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. consequat vel lacus. Sed iaculis pulvinar ligula, ornare fringilla ante viverra et. In hac habitasse platea dictumst. Donec vel orci mi, eu congue justo. Integer eget odio est, eget malesuada lorem. Aenean sed tellus dui, vitae viverra risus. Nullam massa sapien, pulvinar eleifend fringilla id, convallis eget nisi. Mauris a sagittis dui. Pellentesque non lacinia mi. Fusce sit amet libero sit amet erat venenatis sollicitudin vitae vel eros. Cras nunc sapien, interdum sit amet porttitor ut, congue quis urna.
+						</td>					
+					</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+</table>					
+
+<!-- FOOTER -->
+<table class="footer-wrap">
+	<tr>		
+		<td class="container">
+			<div class="content">
+				<table>
+					<tr>
+						<td>
+							<span style="font-size: 0.9em;color:#0097b1;"><b>Dpto. Coordinación Administrativa</b> | Tel. 0000-0000</span>							
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span style="font-size: 0.9em;color:#0097b1;">Trenes Argentinos - Operadora Ferroviaria</span>
+						</td>
+					</tr>
+				</table>
+			</div>				
+		</td>
+	</tr>
+</table><!-- /FOOTER -->
+</body>
+</html>
